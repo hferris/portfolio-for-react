@@ -1,16 +1,45 @@
 [
     {
-      "name": "E-Commerce-Back-End",
+      "name": "E-Commerce BackEnd",
       "description": "This application is a mysql database and application the backend for an e-commerce site. Built using Express, MySQL2, Node, Sequelize and dotenv.",
       "image": "/imgs/Back-End.png",
       "github": "https://github.com/hferris/-E-Commerce-Back-End",
       "deployed": "https://hferris.github.io/-E-Commerce-Back-End/"
     },
     {
-        "name": "Progressive-Budget",
+        "name": "Progressive Budget",
         "description": "This is a web budget tracker application that lets users to track withdrawals and deposits with or without a data/internet connection. This fuctionality allows the users to have accurate acount balance while traveling.",
         "image": "/imgs/budget.png",
         "github": "https://github.com/hferris/-Progressive-Budget",
         "deployed": "https://budget-trans.herokuapp.com/"
       },
+      {
+        "name": "Code Quiz",
+        "description": "An application developed for taking quiz using HTML, CSS, and Javascript. The application focuses on Javascript allowing users to take quiz questions and gather user information to check the answers and also provide scores.",
+        "image": "/imgs/code-quiz.png",
+        "github": "https://github.com/hferris/Code-Quiz",
+        "deployed": "https://hferris.github.io/Code-Quiz/"
+      },
+      {
+        "name": "Fitness Tracker",
+        "description": "A workout application developed for user to track workouts, record workouts to the database and view past workouts. The application allows user to record different types of workouts, Workout names, workout type, the distance, weights lifted, sets and reps.",
+        "image": "/imgs/fitness.png",
+        "github": "https://github.com/hferris/Fitness-Tracker",
+        "deployed": "https://peaceful-headland-50556.herokuapp.com/"
+      },
+      {
+        "name": "GedditDone",
+        "description": "This is an application that connects employers and job seekers. This app will allow the employers to view a list of services that job seekers provide. The employers may connect with the job seeker by the email provided on their service post. The job seekers will be able to create an account profile, which will include a current photo of themselves. This will help the employer to identify who they are hiring once they show up to the work location. The job seeker will complete a list of questions and fill out the type of service they provide. This will include job title, experience level, a list of skills, their contact email address, and the cost of the service either by task or per hour. The job seeker will also be able to select if their services are for residential, business, or both.",
+        "image": "/imgs/gedditdone.png",
+        "github": "https://github.com/tbsdvl/GedditDone",
+        "deployed": "https://gedditdone.herokuapp.com/"
+      },
+      {
+        "name": "Password Generator",
+        "description": "An application developed to generates a random password depending on users criteria selection. The application is developed using HTML, CSS, and Javascript.",
+        "image": "/imgs/pw-gen.png",
+        "github": "https://github.com/hferris/Password-Generator",
+        "deployed": "https://hferris.github.io/Password-Generator/"
+      }
   ]
+  
