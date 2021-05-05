@@ -1,0 +1,16 @@
+[
+    {
+      "name": "E-Commerce-Back-End",
+      "description": "This application is a mysql database and application the backend for an e-commerce site. Built using Express, MySQL2, Node, Sequelize and dotenv.",
+      "image": "/imgs/Back-End.png",
+      "github": "https://github.com/hferris/-E-Commerce-Back-End",
+      "deployed": "https://hferris.github.io/-E-Commerce-Back-End/"
+    },
+    {
+        "name": "Progressive-Budget",
+        "description": "This is a web budget tracker application that lets users to track withdrawals and deposits with or without a data/internet connection. This fuctionality allows the users to have accurate acount balance while traveling.",
+        "image": "/imgs/budget.png",
+        "github": "https://github.com/hferris/-Progressive-Budget",
+        "deployed": "https://budget-trans.herokuapp.com/"
+      },
+  ]
