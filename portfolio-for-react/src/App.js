@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Header from "./Header";
+import ProjectCard from "./components/ProjectCard";
+import About from "./components/About";
+import NavBar from "./components/NavBar";
+import projects from "./homeWork.json";
+import Footer from "./Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    projects,
+  };
+
+  render() {
+    return (
+      <div>
+        <Header></Header>
+        <Router>
+          <NavBar />
+          <Route exact path="/">
+            {this.state.projects.map((project) => (
+              <ProjectCard props={project} />
+            ))}
+          </Route>
+          <Route exact path="/about" component={About} />
+        </Router>
+        <Footer></Footer>
+      </div>
+    );
+  }
 }
-
 export default App;
