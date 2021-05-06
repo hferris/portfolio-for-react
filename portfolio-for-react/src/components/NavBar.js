@@ -13,7 +13,7 @@ function NavBar() {
               location.pathname === "/" ? "nav-link active" : "nav-link"
             }
           >
-            HF
+            My work
           </Link>
         </li>
         <li className="nav-one">
@@ -23,7 +23,7 @@ function NavBar() {
               location.pathname === "/about" ? "nav-link active" : "nav-link"
             }
           >
-            About Me
+            About
           </Link>
         </li>
         <li className="nav-two">
@@ -32,9 +32,7 @@ function NavBar() {
             className={
               location.pathname === "/work" ? "nav-link active" : "nav-link"
             }
-          >
-            MY Work
-          </Link>
+          ></Link>
         </li>
         <li className="nav-three">
           <Link
