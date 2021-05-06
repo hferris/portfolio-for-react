@@ -4,7 +4,12 @@ import background from "./imgs/background.jpeg";
 
 //Working to get my header background img to render,it's not showing right and that's why header has so much blank space
 const styles = {
-  backgroundPic: `url(${background})`,
+  background: `url(${background})`,
+  // width: "100vw",
+  // minHeight: "100vh",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
   fontFamily: "Roboto, Times New Roman, Times, serif",
 };
 const lineStyle = {
