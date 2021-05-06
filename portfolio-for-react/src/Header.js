@@ -2,11 +2,8 @@ import React from "react";
 import professionalPic from "./imgs/professional-picture.png";
 import background from "./imgs/background.jpeg";
 
-//Working to get my header background img to render,it's not showing right and that's why header has so much blank space
 const styles = {
   background: `url(${background})`,
-  // width: "100vw",
-  // minHeight: "100vh",
   backgroundPosition: "center",
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
