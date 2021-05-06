@@ -19,4 +19,3 @@ IBM
 ## Questions
  If you have any questions about the repo, please contact me directly at hferris@dbq.edu or find me on github at https://github.com/hferris.
 
-portfolio-for-react/public/imgs
