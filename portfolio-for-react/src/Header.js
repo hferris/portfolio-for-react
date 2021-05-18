@@ -18,11 +18,14 @@ const lineStyle = {
   fontSize: "1rem",
   marginLeft: "8%",
   marginRight: "20%",
+  fontFamily: "Roboto, Times New Roman, Times, serif",
+  
 };
 
 const name = {
   marginRight: "40%",
   fontWeight: 'bold',
+  fontWeight: "800",
 };
 
 const pro = {
@@ -39,7 +42,7 @@ function Header() {
           <ul>
             <strong>
               <a
-                href="https://docs.google.com/document/d/1bF1CjusiJ1VYQ8mYxv3STll6Wiq69sYt--197Uahdkk/edit"
+                href="resume link here working on it"
                 target="blank"
               >
                 <li style={lineStyle}>Resume</li>
