@@ -1,7 +1,7 @@
 import React from "react";
 
 const styles = {
-  backgroundColor: "#E8632E ",
+  backgroundColor: "#C8A8D5   ",
   textAlign: "center",
   fontFamily: "Roboto, Times New Roman, Times, serif",
 };
@@ -28,3 +28,5 @@ function About() {
 }
 
 export default About;
+
+//E8632E 
