@@ -1,12 +1,20 @@
 import React from "react";
 
 const styles = {
-  backgroundColor: "#F36252",
+  backgroundColor: "#C4C1C6",
   width: "100%",
 };
 const acrossStyle = {
-  display: "inline-block",
   margin: "50px",
+  fontFamily: "Roboto, Times New Roman, Times, serif",
+  marginTop: "3%",
+  marginBottom: "2%",
+  display: "inline-block",
+  fontWeight: "600",
+  fontSize: "1rem",
+  marginLeft: "8%",
+  marginRight: "16%"
+  
 };
 
 function Footer() {
@@ -14,6 +22,9 @@ function Footer() {
     <div style={styles}>
       <nav>
         <ul>
+        <li style={acrossStyle}>
+            <a href="Resume">Resume Under Construction</a>
+          </li>
           <li style={acrossStyle}>
             <a href="hferris@dbq.edu">Email: hferris@dbq.edu</a>
           </li>
